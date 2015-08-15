@@ -25,7 +25,7 @@ import CoreText
 
 private class FontLoader {
     class func loadFont(name: String) {
-        let bundle = NSBundle(forClass: FontLoader.self)
+        let bundle = NSBundle.mainBundle()
         var fontURL = bundle.URLForResource(name, withExtension: "otf")!
 
         let data = NSData(contentsOfURL: fontURL)!
