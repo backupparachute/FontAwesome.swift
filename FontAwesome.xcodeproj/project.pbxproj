@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8401A8D81B39601400269D14 /* FontAwesome.h in Headers */ = {isa = PBXBuildFile; fileRef = 8401A8D71B39601400269D14 /* FontAwesome.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8401A8DE1B39601400269D14 /* FontAwesome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8401A8D21B39601400269D14 /* FontAwesome.framework */; };
 		8401A8E51B39601400269D14 /* FontAwesomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8401A8E41B39601400269D14 /* FontAwesomeTests.swift */; };
 		8401A8F11B39610F00269D14 /* FontAwesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8401A8F01B39610F00269D14 /* FontAwesome.swift */; };
@@ -28,7 +27,6 @@
 /* Begin PBXFileReference section */
 		8401A8D21B39601400269D14 /* FontAwesome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FontAwesome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8401A8D61B39601400269D14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8401A8D71B39601400269D14 /* FontAwesome.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FontAwesome.h; sourceTree = "<group>"; };
 		8401A8DD1B39601400269D14 /* FontAwesomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FontAwesomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8401A8E31B39601400269D14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8401A8E41B39601400269D14 /* FontAwesomeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontAwesomeTests.swift; sourceTree = "<group>"; };
@@ -77,7 +75,6 @@
 		8401A8D41B39601400269D14 /* FontAwesome */ = {
 			isa = PBXGroup;
 			children = (
-				8401A8D71B39601400269D14 /* FontAwesome.h */,
 				8401A8F01B39610F00269D14 /* FontAwesome.swift */,
 				841575D91B3A490A001092B6 /* Enum.swift */,
 				8401A8F21B3961B800269D14 /* FontAwesome.otf */,
@@ -118,7 +115,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8401A8D81B39601400269D14 /* FontAwesome.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +340,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.10;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -362,6 +359,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.10;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
