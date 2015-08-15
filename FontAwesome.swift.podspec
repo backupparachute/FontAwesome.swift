@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = "FontAwesome"
+  s.name             = "FontAwesome.swift"
   s.version          = "0.4.3"
   s.summary          = "Font Awesome for OSX"
   s.homepage         = "https://github.com/thii/FontAwesome.swift"
